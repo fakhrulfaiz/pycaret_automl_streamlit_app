@@ -22,6 +22,8 @@ if choice == "Upload":
         st.dataframe(df)
 
 
+
+
 if choice == "Profiling":
     if df is not None:
         st.title("Automated Exploratory Data Analysis")
